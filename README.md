@@ -80,7 +80,7 @@ The Withdrawal Limit thresholds are set in USDC. For example, to set a low withd
 MySwap-CL's TWAP pricing to determine the value of an applicable transaction in USDC terms.
 
 Applicable transactions are either `transfer` or `approve` transactions on the most commonly used tokens (ETH, USDC, USDT, DAI, WBTC) or a whitelisted set of protocol entrypoints.
-This whitelist for both tokens and contract entrypoints  can be configured manually using the `update_rate_config` entrypoint
+This whitelist for both tokens and contract entrypoints  can be configured manually using the `update_rate_config` entrypoint.
 
 Two thresholds can be set as part of the daily withdrawal limit:
 
